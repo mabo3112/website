@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MABO — Retro Fanpage</title>
+  <style>
+    /* Very early-internet vibe */
+    body {
+      background:#00ffcc url('data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==') repeat;
+      color:#000;
+      font-family:'Comic Sans MS','Trebuchet MS',Arial,sans-serif;
+    }
+    .wrapper {
+      width:800px;
+      margin:24px auto;
+      border:6px outset #ffcc00;
+      background:#fff;
+      padding:12px;
+    }
+    h1 {
+      color:#ff0000;
+      font-size:42px;
+      margin:6px 0;
+      text-align:center;
+    }
+    .slogan {font-size:14px;color:#0033cc;text-align:center}
+    .nav {background:#0000ff;color:#fff;padding:6px;margin:10px 0;text-align:center}
+    .nav a {color:#ffff99;text-decoration:none;margin:0 12px}
+
+    .left {width:60%;vertical-align:top;padding:8px}
+    .right {width:38%;vertical-align:top;padding:8px}
+
+    .box {background:#ffffe0;border:2px solid #000;padding:8px;margin-bottom:10px}
+    .stats ul {list-style:square inside}
+
+    .marq {background:#ffccff;padding:6px;border:1px dashed #900}
+
+    .blink {animation:blink 1.2s steps(1) infinite;font-weight:bold}
+    @keyframes blink {50%{visibility:hidden}}
+
+    .pixel {font-family:'Courier New',Courier,monospace;font-size:13px}
+
+    .footer {font-size:12px;text-align:center;margin-top:12px}
+
+    .btn {display:inline-block;background:#00ccff;color:#000;padding:6px 10px;
+          border:2px groove #0099cc;text-decoration:none;font-weight:bold}
+
+    .gif {width:80px;height:80px;background:linear-gradient(45deg,#ff0,#f0f);
+          border:2px solid #000;display:inline-block}
+
+    @media (max-width:820px){.wrapper{width:auto;margin:10px}}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1><span style="color:#ff00ff">MABO</span> <span class="blink">is awesome!</span></h1>
+    <p class="slogan">Die offizielle Retro-Fanpage für den ultimativen League of Legends & Path of Exile 2 Carry</p>
+
+    <div class="nav">
+      <a href="#home">Home</a>
+      <a href="#stats">Stats</a>
+      <a href="#quotes">Quotes</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+
+    <table width="100%" cellpadding="6" cellspacing="6">
+      <tr>
+        <td class="left">
+
+          <div class="box marq">
+            <marquee behavior="scroll" direction="left">
+              Welcome to MABO's page! Prepare to be carried.
+            </marquee>
+          </div>
+
+          <div class="box stats" id="stats">
+            <h3>Spiel-Highlights</h3>
+            <ul>
+              <li>League of Legends: Präzise Mechanics, heavy clutch potential</li>
+              <li>Path of Exile 2: Clearrates & smart crafting</li>
+              <li>Teamplay: Always positive and communicative</li>
+            </ul>
+            <p class="pixel">Best Champion: <b>Yasuo / Zed</b> — KDA: legendary</p>
+          </div>
+
+          <div class="box">
+            <h3>Downloads</h3>
+            <p class="pixel">
+              [ <a href="#" class="btn">Wallpaper 800x600</a> ] &nbsp;
+              [ <a href="#" class="btn">MP3: MABO Theme</a> ]
+            </p>
+          </div>
+
+        </td>
+        <td class="right">
+
+          <div class="box" id="quotes">
+            <h3>Stimmen</h3>
+            <p>"Wenn MABO spielt, halten wir die Luft an."<br>
+              <small>— Duo Partner</small></p>
+            <p>"PoE-Builds on point."<br>
+              <small>— Gildenfreund</small></p>
+          </div>
+
+          <div class="box">
+            <h3>Avatar</h3>
+            <div style="text-align:center">
+              <div class="gif" title="animated gif substitute"></div>
+              <!-- <p class="pixel"><b>MABO#1234</b></p> -->
+            </div>
+          </div>
+
+          <div class="box" id="kontakt">
+            <h3>Kontakt</h3>
+            <!-- <p class="pixel">Discord: <b>MABO#1234</b></p> -->
+            <p class="pixel">Oder hinterlasse einen Eintrag im <a href="#" class="btn">Gästebuch</a></p>
+          </div>
+
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+    <div class="footer">
+      Diese Seite wurde erstellt mit ❤️ und einem Hauch von 1996.<br>
+      <small>Designed for maximum nostalgia.</small>
+    </div>
+  </div>
+</body>
+</html>
