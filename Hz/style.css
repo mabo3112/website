@@ -47,6 +47,16 @@ img {
     color: white;
 }
 
+.modal-button {
+  margin-top: 20px;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  border: none;
+  background-color: brown;
+  color: white;
+  font-size: 2rem;
+}
+
 .modal.active {
     transform: translate(-50%, -50%) scale(1);
 }
@@ -69,19 +79,7 @@ img {
     display: block;
 }
 
-.overlay-name {
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    word-wrap: break-word;
-    text-align: center;
-    margin-bottom: 15px;
-}
 
-.overlay-date {
-    font-size: 32px;
-}
 
 .hero-image {
     width: 100vw;
@@ -119,6 +117,22 @@ img {
     
 }
 
+.overlay-name {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.overlay-date {
+    font-size: 32px;
+}
+
+
+
 
 .heart {
   
@@ -143,5 +157,33 @@ img {
   height: 100vh;
   pointer-events: none;
   z-index: 5;
+}
+
+
+@media (max-width: 768px) {
+  .modal-overlay{
+    background-image: url("mobile-vorhang.jpg");
+  }
+
+  .modal > p{
+    font-size: 1.5rem;
+  }
+
+  .overlay {
+    top: 70vh;
+    left: 0vh;
+    width: 100vw;
+    height: 30vh;
+    
+  }
+
+  .overlay-name{
+    font-size: 3rem;
+  }
+
+  .overlay-date {
+    font-size: 1.5rem;
+  }
+  
 }
 
